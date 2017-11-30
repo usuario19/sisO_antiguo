@@ -1,0 +1,6 @@
+Coniguracion para subir repositorio:
+1. git init
+git add .
+git commit -m 'mi primer commit'
+git remote add origin URL
+git push -u origin master
