@@ -4,3 +4,11 @@ git add .
 git commit -m 'mi primer commit'
 git remote add origin URL
 git push -u origin master
+
+
+para subir:
+git remote -v
+git status
+git add/rm file
+git commit
+git push
