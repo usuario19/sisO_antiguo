@@ -1,0 +1,8 @@
+git remote -v
+esto es para fijarte el fetch y push tiene q estar asi:
+origin  https://github.com/usuario19/sisO.git (fetch)
+origin  https://github.com/usuario19/sisO.git (push)
+
+git pull
+git push
+
