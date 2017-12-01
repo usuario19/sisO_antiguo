@@ -19,10 +19,10 @@ class CreateUsuarioTable extends Migration
             $table->string('apellidos');
             $table->date('fecha_nac');
             $table->binary('foto');
-            $table->string('email')->unique();
+            $table->string('email',100)->unique();
             $table->string('password');
-            $table->integer('id club')->unsigned();
-            $table->foreign('id_club')->references('id')->on('clubs');
+            $table->integer('id_club')->unsigned();
+            $table->foreign('id_club')->references('id_club')->on('clubs');
             $table->rememberToken();
             $table->timestamps();
         });
