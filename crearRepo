@@ -6,7 +6,8 @@ git remote add origin URL
 git pull
 git push -u origin master
 
-
+clonar repo
+git clone URL
 para subir:
 git remote -v
 git status
