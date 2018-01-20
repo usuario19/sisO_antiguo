@@ -3,6 +3,7 @@ Coniguracion para subir repositorio:
 git add .
 git commit -m 'mi primer commit'
 git remote add origin URL
+git pull
 git push -u origin master
 
 
