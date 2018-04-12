@@ -8,9 +8,10 @@ git push -u origin master
 
 clonar repo
 git clone URL
+
 para subir:
 git remote -v
 git status
 git add/rm file
-git commit
+git commit -a -m "mensaje"
 git push
