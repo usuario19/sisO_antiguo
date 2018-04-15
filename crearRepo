@@ -8,6 +8,7 @@ git push -u origin master
 
 clonar repo
 git clone URL
+cmd composer install
 
 para subir:
 git remote -v
