@@ -9,6 +9,7 @@ git push -u origin master
 clonar repo
 git clone URL
 cmd composer install
+php artisan key:generate
 
 para subir:
 git remote -v
